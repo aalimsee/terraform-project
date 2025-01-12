@@ -5,8 +5,4 @@ terraform {
       version = "~> 4.0"
     }
   }
-
-  module "network_vpc_module" {
-    source = "./networking/vpc"
-  }
 }
