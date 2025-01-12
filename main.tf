@@ -6,7 +6,7 @@ terraform {
     }
   }
 
-  module "networking_vpc_module" {
+  module "network_vpc_module" {
     source = "./networking/vpc"
   }
 }
