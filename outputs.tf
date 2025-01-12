@@ -1,5 +1,5 @@
 output "vpc_id" {
-  value = aws_vpc.network_vpc_module.id
+  value = aws_vpc.aalimsee_tf_main.id
 }
 
 output "public_subnets" {
