@@ -1,3 +1,4 @@
+# Created for testing 
 output "vpc_id" {
   value = aws_vpc.aalimsee_tf_main.id
 }
