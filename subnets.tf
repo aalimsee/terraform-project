@@ -1,3 +1,4 @@
+# Copy Paste from /networking/subnets.tf)
 resource "aws_subnet" "aalimsee_tf_public" {
   count                   = 3
   vpc_id                  = aws_vpc.aalimsee_tf_main.id
